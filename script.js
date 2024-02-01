@@ -73,7 +73,7 @@ if (userInput == 2){
         userInput = prompt(q5);
 
         // 5TH Conditional Statement
-        if (userInput == 2){
+        if (userInput == 1){
           alert(win);
         } else {
           alert(gameOver5);
