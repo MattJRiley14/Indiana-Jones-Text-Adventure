@@ -57,7 +57,7 @@ let userInput = prompt(q1);
 // NESTED CONDITIONAL STATEMENTS
 // 1ST Conditional Statement
 // NOTE: Prompts return the value entered as a string. That is why double equals == is used instead of triple equals (AKA Strict Equality)
-if (userInput == 1){
+if (userInput == 2){
   userInput = prompt(q2);
 
   // 2ND Conditional Statement
@@ -65,11 +65,11 @@ if (userInput == 1){
     userInput = prompt(q3);
 
     // 3RD Conditional Statement
-    if (userInput == 2){
+    if (userInput == 1){
       userInput = prompt(q4);
 
       // 4TH Conditional Statement
-      if (userInput == 1){
+      if (userInput == 2){
         userInput = prompt(q5);
 
         // 5TH Conditional Statement
